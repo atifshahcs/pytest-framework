@@ -17,3 +17,7 @@ class TestClass:
     def test_cube(self):
         result = cube(self.num)
         assert result == self.num ** 3
+
+    def test_skip(self):
+        result = cube(self.num)*self.num
+        assert self.num ** 4
