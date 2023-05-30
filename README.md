@@ -1,9 +1,6 @@
 
 # pytest-framework
 
-
->>>>>>> 9ecd0636b92d06fe6095b7826506b3539c001648
-
 Run all tests
 
 <code> pytest </code>
