@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+# pytest-framework
+
+
+>>>>>>> 9ecd0636b92d06fe6095b7826506b3539c001648
 
 Run all tests
 
@@ -8,6 +14,7 @@ Run only specific file tests
 <code> pytest <file_name> </code>
 
 
+<<<<<<< HEAD
 Collect the test only
 
 <code> pytest <file_name> --collectonly </code>
@@ -39,3 +46,8 @@ To check the fixtures only
 Run test with decorated fixture text
 
 <code>pytest <file_name> -s </code>
+=======
+Run only specific file and specific test
+
+<code> pytest <file_name>::<test_function_name> </code>
+>>>>>>> 9ecd0636b92d06fe6095b7826506b3539c001648
